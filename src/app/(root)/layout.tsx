@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Sidebar from "@/components/Sidebar";
 
 const RootLayout = ({
     children
@@ -7,8 +7,10 @@ const RootLayout = ({
 }) => {
     return(
         <div className="h-full">
-            <Navbar/>
-            <main className="md:pl-20 pt-16 h-full">
+            <div className="hidden sm:flex mt-16 w-20 flex-col fixed inset-y-0">
+                <Sidebar/>
+            </div>
+            <main className="sm:pl-20 pt-16 h-full">
                 {children}
             </main>
         </div>

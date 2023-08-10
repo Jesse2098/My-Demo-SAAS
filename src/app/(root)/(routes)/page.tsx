@@ -1,9 +1,10 @@
+import SearchInput from "@/components/SearchInput";
 
 
 function Home() {
   return ( 
-    <div>
-      <h1>Hello saas!</h1>
+    <div className="h-full p-4 space-y-2">
+      <SearchInput/>
     </div>
    );
 }
