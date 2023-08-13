@@ -44,7 +44,9 @@ function SearchInput() {
 
     return ( 
         <div className="relative">
-            <Search className="absolute h-4 w-4 top-3 text-muted-foreground"/>
+            <Search 
+                className="absolute h-4 w-4 top-3 text-muted-foreground"
+            />
             <Input 
                 onChange={onChange}
                 value={value}

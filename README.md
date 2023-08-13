@@ -32,3 +32,10 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+//Notes for possible errors
+if anything is wrong first check the seed,ts file
+in the lib folder and change that categories to category dont know why he used category or if it changes anything.
+So after running the [*node scripts/seed.ts*] we got an error. 
+A possible reason is that we havent connected to our db. Now im thinking of using supabase but that may prove to be problematic and may cause further errors coming from the seed.ts file. But let me try skipping the seeding part and go to the rest. Then afterwards i can add supabase to my prisma and see what happens next.
+Ive gone to take a dump.
